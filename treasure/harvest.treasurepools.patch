@@ -1,7 +1,7 @@
 [
   {
   "op" : "add",
-  "path" : "inkbulbHarvest",
+  "path" : "/inkbulbHarvest",
   "value" : [
     [0, {
       "pool" : [
