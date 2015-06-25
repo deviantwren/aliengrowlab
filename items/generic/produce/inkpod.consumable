@@ -1,0 +1,23 @@
+{
+  "itemName" : "inkpod",
+  "rarity" : "Uncommon",
+  "price" : 3330,
+  "inventoryIcon" : "inkpod.png",
+  "description" : "Inkbulb pod.  It bristles with thousands of little hairs.",
+  "shortdescription" : "Inkpod",
+  "handPosition" : [-6, -4],
+  "effects" : [ [
+    {
+        "effect" : "rage",
+        "duration" : 45
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "inkbrain", "inkbrainy" ]
+}

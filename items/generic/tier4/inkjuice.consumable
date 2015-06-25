@@ -1,0 +1,28 @@
+{
+  "itemName" : "inkjuice",
+  "rarity" : "Rare",
+  "price" : 4965,
+  "inventoryIcon" : "inkjuice.png",
+  "description" : "Yum, yum! YUM! Thick inkbulb-pussplum shake! It's so cold and delicious!",
+  "shortdescription" : "Ink Juice",
+  "handPosition" : [0, 11],
+  "effects" : [ [
+    {
+        "effect" : "runboost25",
+        "duration" : 135
+    },
+    {
+        "effect" : "maxenergyboost120",
+        "duration" : 270
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 270
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "inktongue" ]
+}

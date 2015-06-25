@@ -1,0 +1,33 @@
+{
+  "itemName" : "inkbrainy",
+  "rarity" : "Rare",
+  "price" : 4875,
+  "inventoryIcon" : "inkbrain.png",
+  "description" : "Stuffed inkbulb root. It's oozing and seeping with delicious, brainy nutrition.",
+  "shortdescription" : "Inkbrainy",
+  "handPosition" : [0, -1],
+  "effects" : [ [
+        {
+        "effect" : "foodheal240",
+        "duration" : 90
+    },
+    {
+        "effect" : "maxhealthboost60",
+        "duration" : 135
+    },
+    {
+        "effect" : "maxenergyboost60",
+        "duration" : 135
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 360
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "inkjuice" ]
+}
+
+

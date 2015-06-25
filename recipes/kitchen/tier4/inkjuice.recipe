@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "inkbulb", "count" : 1 },
+    { "item" : "pussplum", "count" : 1 },
+    { "item" : "ice", "count" : 1 }
+  ],
+  "output" : { "item" : "inkjuice", "count" : 1 },
+  "groups" : [ "kitchen", "consumables", "foodmobility", "foodenergyboost" ]
+}

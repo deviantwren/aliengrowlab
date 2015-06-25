@@ -1,0 +1,34 @@
+{
+  "itemName" : "inktongue",
+  "rarity" : "Rare",
+  "price" : 5100,
+  "inventoryIcon" : "inktongue.png",
+  "description" : "Yum! It's SO MUCH GOOD STUFF! Inkbulb, kiwi, neonmelon, pussplum brain-frost! Eatnow!",
+  "shortdescription" : "Ink Tongue",
+  "handPosition" : [-4, -4],
+  "effects" : [ [
+	    {
+        "effect" : "foodheal50",
+        "duration" : 60
+    },
+	{
+        "effect" : "rage",
+        "duration" : 30
+    },
+	{
+        "effect" : "runboost25",
+        "duration" : 60
+    },
+    {
+        "effect" : "bouncy",
+        "duration" : 15
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 90
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

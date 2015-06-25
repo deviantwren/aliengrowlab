@@ -1,0 +1,20 @@
+[
+  {
+  "op" : "add",
+  "path" : "inkbulbHarvest",
+  "value" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.3, "item" : "inkbulb"},
+        {"weight" : 0.4, "item" : "inkpod"},
+        {"weight" : 0.2, "item" : "inkbulbseed"},
+        {"weight" : 0.1, "item" : "plantfibre"}
+      ],
+      "poolRounds" : [
+        [0.7, 5],
+        [0.3, 6]
+      ]
+    } ]
+  ]
+  }
+]

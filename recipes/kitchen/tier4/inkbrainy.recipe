@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "inkbulb", "count" : 1 },
+    { "item" : "inkpod", "count" : 3 },
+    { "item" : "brain", "count" : 1 }
+  ],
+  "output" : { "item" : "inkbrainy", "count" : 1 },
+  "groups" : [ "kitchen", "consumables", "foodhealing", "foodhealthboost", "foodenergyboost" ]
+}
