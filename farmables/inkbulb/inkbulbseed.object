@@ -39,19 +39,19 @@
 
   "stages" : [
     {
-      "duration" : [945, 2175]
+      "duration" : [345, 975]
     },
     {
-      "duration" : [875, 2025]
+      "duration" : [1475, 2325]
     },
     {
       "alts" : 5,
-      "duration" : [1485, 1940]
+      "duration" : [2185, 2740]
     },
     {
       "alts" : 5,
       "harvestPool" : "inkbulbHarvest",
-      "resetToStage" : 1
+      "resetToStage" : 2
     }
   ]
 }

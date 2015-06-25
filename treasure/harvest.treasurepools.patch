@@ -5,14 +5,13 @@
   "value" : [
     [0, {
       "pool" : [
-        {"weight" : 0.3, "item" : "inkbulb"},
-        {"weight" : 0.4, "item" : "inkpod"},
-        {"weight" : 0.2, "item" : "inkbulbseed"},
-        {"weight" : 0.1, "item" : "plantfibre"}
+        {"weight" : 0.6, "item" : "inkbulb"},
+        {"weight" : 0.2, "item" : "inkpod"},
+        {"weight" : 0.2, "item" : "inkbulbseed"}
       ],
       "poolRounds" : [
-        [0.7, 5],
-        [0.3, 6]
+        [0.7, 2],
+        [0.3, 3]
       ]
     } ]
   ]

@@ -8,6 +8,13 @@
   "printable" : false,
   "price" : 3155,
   "lightColor" : [255, 250, 116],
+
+  "flickerPeriod" : 18.0,
+  "flickerMinIntensity" : 0.15,
+  "flickerMaxIntensity" : 0.3,
+  "flickerPeriodVariance" : 1.5,
+  "flickerIntensityVariance" : 0.025,
+  
   "hasObjectItem" : false,
 
   "apexDescription" : "Did someone say baboon-butt? It's poisonous, and I'd prefer to avoid a round of that.",
@@ -34,19 +41,19 @@
 
   "stages" : [
     {
-      "duration" : [1115, 2335]
+      "duration" : [515, 1135]
     },
     {
-      "duration" : [1015, 2235]
+      "duration" : [1615, 2835]
     },
     {
       "alts" : 5,
-      "duration" : [1860, 2145]
+      "duration" : [2460, 3145]
     },
     {
       "alts" : 5,
       "harvestPool" : "inkbulbHarvest",
-      "resetToStage" : 1
+      "resetToStage" : 2
     }
   ],
 
