@@ -9,6 +9,12 @@
   "price" : 3155,
   "lightColor" : [255, 250, 116],
 
+  "flickerPeriod" : 18.0,
+  "flickerMinIntensity" : 0.15,
+  "flickerMaxIntensity" : 0.3,
+  "flickerPeriodVariance" : 1.5,
+  "flickerIntensityVariance" : 0.025,
+
   "apexDescription" : "Did someone say baboon-butt? It's poisonous, and I'd prefer to avoid a round of that.",
   "avianDescription" : "It isn't edible. I'd better not.",
   "floranDescription" : "Tall. Black. Casts ssshadows. Floran kill from ssshadows.",
