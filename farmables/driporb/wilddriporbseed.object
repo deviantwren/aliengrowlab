@@ -1,0 +1,63 @@
+{
+  "objectName" : "wilddriporbseedseed",
+  "rarity" : "Legendary",
+  "category" : "farmable",
+  "description" : "A seed with an odd resemblance to the progeny seeds of a Floran.",
+  "shortdescription" : "Drip Orb Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 9500,
+  "lightColor" : [27, 8, 26],
+
+  "flickerPeriod" : 33.0,
+  "flickerMinIntensity" : 0.05,
+  "flickerMaxIntensity" : 0.35,
+  "flickerPeriodVariance" : 1.5,
+  "flickerIntensityVariance" : 0.025,
+  
+  "hasObjectItem" : false,
+
+  "apexDescription" : "Yeah, my last date had some anterior growths similar to this.",
+  "avianDescription" : "Let us destroy. Cast it into the fire!",
+  "floranDescription" : "Ooh! Floran evolve into better Floran?",
+  "glitchDescription" : "Observation. This seed bears an odd resemblance to the progeny seeds of a Floran",
+  "humanDescription" : "A seed with an odd resemblance to the progeny seeds of a Floran.",
+  "hylotlDescription" : "A most vile plant. Put flame to it now!",
+
+  "inventoryIcon" : "driporbseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "driporbseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "top" ]
+
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [2000, 4000]
+    },
+    {
+      "duration" : [4000, 6000]
+    },
+    {
+      "alts" : 5,
+      "duration" : [6000, 8000]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "driporbseedHarvest",
+      "resetToStage" : 3
+    }
+  ],
+
+  "breakDropOptions" : [
+    [ [ "driporbseed", 1, { } ] ]
+  ]
+}
