@@ -16,7 +16,7 @@
   "flickerIntensityVariance" : 0.025,
 
   "apexDescription" : "Yeah, my last date had some anterior growths similar to this.",
-  "avianDescription" : "Let us destroy. Cast it into the fire!",
+  "avianDescription" : "Let us destroy it. Cast it into the fire!",
   "floranDescription" : "Ooh! Floran evolve into better Floran?",
   "glitchDescription" : "Observation. This seed bears an odd resemblance to the progeny seeds of a Floran",
   "humanDescription" : "A seed with an odd resemblance to the progeny seeds of a Floran.",
@@ -26,7 +26,7 @@
   "orientations" : [
     {
       "dualImage" : "driporbseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [-8, -16],
       "frames" : 1,
       "animationCycle" : 0.5,
 
