@@ -34,7 +34,7 @@
   },
   {
   "op" : "add",
-  "path" : "/driporbseedHarvest",
+  "path" : "/driporbHarvest",
   "value" : [
     [0, {
       "pool" : [

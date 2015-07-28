@@ -53,7 +53,7 @@
     {
       "alts" : 5,
       "harvestPool" : "driporbseedHarvest",
-      "resetToStage" : 3
+      "resetToStage" : 2
     }
   ],
 
