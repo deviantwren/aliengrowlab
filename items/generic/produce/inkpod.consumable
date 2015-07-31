@@ -19,5 +19,5 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "inkbrain", "inkbrainy" ]
+  "learnBlueprintsOnPickup" : [ "inkbrain" ]
 }

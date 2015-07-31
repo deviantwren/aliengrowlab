@@ -7,5 +7,5 @@
     { "item" : "ice", "count" : 1 }
   ],
   "output" : { "item" : "inktongue", "count" : 1 },
-  "groups" : [ "kitchen", "consumables", "foodhealing", "foodmobility", "foodother" ]
+  "groups" : [ "kitchen", "consumables", "foodhealing", "foodmobility", "foodother", "licherefood" ]
 }

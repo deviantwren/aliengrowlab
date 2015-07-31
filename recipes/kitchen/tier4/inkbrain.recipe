@@ -5,5 +5,5 @@
     { "item" : "liquidalienjuice", "count" : 10 }
   ],
   "output" : { "item" : "inkbrain", "count" : 1 },
-  "groups" : [ "kitchen", "consumables", "foodhealing", "foodhealthboost", "foodenergyboost" ]
+  "groups" : [ "kitchen", "consumables", "foodhealing", "foodhealthboost", "foodenergyboost", "licherefood" ]
 }

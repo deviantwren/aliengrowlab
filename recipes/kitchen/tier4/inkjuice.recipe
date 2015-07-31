@@ -5,5 +5,5 @@
     { "item" : "ice", "count" : 1 }
   ],
   "output" : { "item" : "inkjuice", "count" : 1 },
-  "groups" : [ "kitchen", "consumables", "foodmobility", "foodenergyboost" ]
+  "groups" : [ "kitchen", "consumables", "foodmobility", "foodenergyboost", "licherefood" ]
 }
