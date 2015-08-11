@@ -2,7 +2,7 @@
   "name" : "dwgrowlab",
   "version" : "Beta v. Upbeat Giraffe - Update 5",
   "path" : ".",
-  "requires" : [ "dwlichere_race" ],
+  "requires" : [ ],
   "metadata": {
     "author" : "deviantWren",
     "description" : "Adds farmable plants and related items.",

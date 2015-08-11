@@ -42,9 +42,7 @@
         {"weight" : 0.1, "item" : "bone"},
         {"weight" : 0.1, "item" : "plantfibre"},
         {"weight" : 0.05, "item" : "brain"},
-        {"weight" : 0.05, "item" : "driporbseed"},
-        {"weight" : 0.05, "item" : "licheredrip"},
-        {"weight" : 0.05, "item" : "licheredripmature"}
+        {"weight" : 0.05, "item" : "driporbseed"}
       ],
       "poolRounds" : [
         [0.9, 7],
