@@ -9,19 +9,19 @@
   "effects" : [ [
         {
         "effect" : "foodheal240",
-        "duration" : 90
+        "duration" : 60
     },
     {
-        "effect" : "maxhealthboost60",
-        "duration" : 135
+        "effect" : "maxhealthboost50",
+        "duration" : 270
     },
     {
         "effect" : "maxenergyboost60",
-        "duration" : 135
+        "duration" : 270
     },
     {
         "effect" : "wellfed",
-        "duration" : 360
+        "duration" : 270
     }
   ] ],
   "blockingEffects" : [

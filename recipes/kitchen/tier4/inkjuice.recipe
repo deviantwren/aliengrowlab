@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "inkbulb", "count" : 1 },
-    { "item" : "pussplum", "count" : 1 },
-    { "item" : "ice", "count" : 1 }
+    { "item" : "inkbulb", "count" : 4 },
+    { "item" : "pussplum", "count" : 8 },
+    { "item" : "ice", "count" : 4 }
   ],
   "output" : { "item" : "inkjuice", "count" : 1 },
-  "groups" : [ "kitchen", "consumables", "foodmobility", "foodenergyboost", "licherefood" ]
+  "groups" : [ "kitchen", "consumables", "foodhealing", "foodhealthboost", "foodenergyboost", "licherefood" ]
 }

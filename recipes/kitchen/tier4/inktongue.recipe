@@ -1,11 +1,11 @@
 {
   "input" : [
-    { "item" : "inkbulb", "count" : 1 },
-    { "item" : "kiwi", "count" : 1 },
-    { "item" : "neonmelon", "count" : 1 },
-    { "item" : "pussplum", "count" : 1 },
-    { "item" : "ice", "count" : 1 }
+    { "item" : "inkbulb", "count" : 3 },
+    { "item" : "kiwi", "count" : 6 },
+    { "item" : "neonmelon", "count" : 6 },
+    { "item" : "pussplum", "count" : 6 },
+    { "item" : "ice", "count" : 7 }
   ],
   "output" : { "item" : "inktongue", "count" : 1 },
-  "groups" : [ "kitchen", "consumables", "foodhealing", "foodmobility", "foodother", "licherefood" ]
+  "groups" : [ "kitchen", "consumables", "foodhealing", "foodmobility", "foodenergyboost", "licherefood" ]
 }

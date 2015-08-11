@@ -8,24 +8,24 @@
   "handPosition" : [-4, -4],
   "effects" : [ [
 	    {
-        "effect" : "foodheal50",
+        "effect" : "foodheal240",
         "duration" : 60
     },
 	{
         "effect" : "rage",
-        "duration" : 30
+        "duration" : 60
     },
 	{
         "effect" : "runboost25",
         "duration" : 60
     },
     {
-        "effect" : "bouncy",
-        "duration" : 15
+        "effect" : "maxenergyboost140",
+        "duration" : 270
     },
     {
         "effect" : "wellfed",
-        "duration" : 90
+        "duration" : 270
     }
   ] ],
   "blockingEffects" : [
