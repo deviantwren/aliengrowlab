@@ -1,8 +1,9 @@
 {
   "input" : [
-    { "item" : "inkbulb", "count" : 1 },
-    { "item" : "inkpod", "count" : 3 },
-    { "item" : "liquidalienjuice", "count" : 10 },
+    { "item" : "inkbulb", "count" : 2 },
+    { "item" : "inkpod", "count" : 7 },
+    { "item" : "liquidalienjuice", "count" : 15 },
+    { "item" : "brain", "count" : 1 },
     { "item" : "oculumon", "count" : 3 }
   ],
   "output" : { "item" : "inkbrain", "count" : 1 },
