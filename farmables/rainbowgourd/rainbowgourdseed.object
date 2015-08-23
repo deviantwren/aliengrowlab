@@ -1,0 +1,57 @@
+{
+  "objectName" : "rainbowgordseed",
+  "rarity" : "Rare",
+  "category" : "farmable",
+  "description" : "Rainbowgourd.  It's a colorful plant that grows really slowly.",
+  "shortdescription" : "Rainbowgourd Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 2040,
+  "lightColor" : [152, 233, 200],
+
+  "flickerPeriod" : 21.0,
+  "flickerMinIntensity" : 0.15,
+  "flickerMaxIntensity" : 0.3,
+  "flickerPeriodVariance" : 3.5,
+  "flickerIntensityVariance" : 0.025,
+
+  "apexDescription" : "A luminous biohazard. I shouldn't touch it.",
+  "avianDescription" : "It isn't edible. I'd better not.",
+  "floranDescription" : "Colorful yum-yums.",
+  "glitchDescription" : "Disgusted. This plant couldn't taste good.",
+  "humanDescription" : "Oh! Awesome plant!.",
+  "hylotlDescription" : "A colorful plant that doesn't suit my diet.",
+
+  "inventoryIcon" : "rainbowgourdseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "rainbowgourdseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [975, 1775]
+    },
+    {
+      "duration" : [2475, 2925]
+    },
+    {
+      "alts" : 5,
+      "duration" : [3585, 4440]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "rainbowgourdseedHarvest",
+      "resetToStage" : 2
+    }
+  ]
+}

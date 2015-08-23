@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "rainbowgourdfruit", "count" : 5 }
+  ],
+  "output" : { "item" : "rainbowgourdjuice", "count" : 1 },
+  "groups" : [ "kitchen", "consumables", "foodhealing", "foodhealthboost", "foodenergyboost", "licherefood" ]
+}

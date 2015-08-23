@@ -1,0 +1,19 @@
+{
+  "itemName" : "rainbowgourdfruit",
+  "rarity" : "Uncommon",
+  "price" : 3720,
+  "inventoryIcon" : "rainbowgourdfruiticon.png",
+  "description" : "So soft and delicious. Yum!",
+  "shortdescription" : "Rainbowgourd Fruit",
+  "effects" : [ [
+    {
+        "effect" : "foodheal70",
+        "duration" : 30
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 90
+    }
+  ] ],
+  "learnBlueprintsOnPickup" : [ "rainbowgourdjuice" ]
+}

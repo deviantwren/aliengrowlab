@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "glowfibreorange", "count" : 2 },
+    { "item" : "glowfibrepurple", "count" : 2 },
+    { "item" : "glowfibrered", "count" : 2 },
+    { "item" : "glowfibregreen", "count" : 2 },
+    { "item" : "glowfibreblue", "count" : 2 },
+    { "item" : "glowfibreyellow", "count" : 2 },
+    { "item" : "ice", "count" : 7 }
+  ],
+  "output" : { "item" : "glowfibreswirl", "count" : 1 },
+  "groups" : [ "kitchen", "consumables", "foodhealing", "foodhealthboost", "foodenergyboost", "licherefood" ]
+}

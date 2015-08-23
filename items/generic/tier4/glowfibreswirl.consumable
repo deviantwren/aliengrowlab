@@ -1,0 +1,31 @@
+{
+  "itemName" : "glowfibreswirl",
+  "rarity" : "Rare",
+  "price" : 5065,
+  "inventoryIcon" : "inkbrain.png",
+  "description" : "It's a swirl of pulpy, colorful, tasty fibre. So much fibre! Brainy nutrition for plants.",
+  "shortdescription" : "Glow-Fibre Swirl",
+  "handPosition" : [0, -1],
+  "effects" : [ [
+        {
+        "effect" : "foodheal210",
+        "duration" : 60
+    },
+    {
+        "effect" : "maxhealthboost50",
+        "duration" : 120
+    },
+    {
+        "effect" : "maxenergyboost80",
+        "duration" : 120
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 120
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "juicetongue" ]
+}

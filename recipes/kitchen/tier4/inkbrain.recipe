@@ -2,9 +2,10 @@
   "input" : [
     { "item" : "inkbulb", "count" : 2 },
     { "item" : "inkpod", "count" : 7 },
-    { "item" : "liquidalienjuice", "count" : 15 },
+    { "item" : "liquidalienjuice", "count" : 10 },
     { "item" : "brain", "count" : 1 },
-    { "item" : "oculumon", "count" : 3 }
+    { "item" : "glowfibrered", "count" : 3 },
+    { "item" : "glowfibrepurple", "count" : 3 }
   ],
   "output" : { "item" : "inkbrain", "count" : 1 },
   "groups" : [ "kitchen", "consumables", "foodhealing", "foodhealthboost", "foodenergyboost", "licherefood" ]

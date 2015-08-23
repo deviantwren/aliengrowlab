@@ -1,0 +1,70 @@
+{
+  "objectName" : "wallclingseed_lt",
+  "rarity" : "Rare",
+  "category" : "farmable",
+  "description" : "Orange Wallcling. It's a lamp-like plant that grows on walls.",
+  "shortdescription" : "Orange Wallcling Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 2545,
+  "lightColor" : [253, 198, 119],
+
+  "flickerPeriod" : 15.0,
+  "flickerMinIntensity" : 0.15,
+  "flickerMaxIntensity" : 0.3,
+  "flickerPeriodVariance" : 2.5,
+  "flickerIntensityVariance" : 0.025,
+
+  "apexDescription" : "Curious plant; could serve as a torch.",
+  "avianDescription" : "These plants put a fowl odor on the air, of plants.",
+  "floranDescription" : "Pulse. Pulse. Pulse. I like to watch the pulse.",
+  "glitchDescription" : "Curious. Plants grow on walls? Wall-plant?",
+  "humanDescription" : "Reminds me of an angler fish.",
+  "hylotlDescription" : "A dislike such disgusting, cave-plants. They're rank and toxic.",
+
+  "inventoryIcon" : "wallclingseed_lticon.png",
+  "orientations" : [
+    {
+      "image" : "wallclingseed_ltleft.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+//      "spaceScan" : 0.1, (this can be used instead of the below)
+      "spaces" : [ [0, 0], [0, 1], [1, 0], [1, 1] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "left" ]
+    },
+    {
+      "image" : "wallclingseed_ltright.png:<color>.<stage>.<alt>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+//      "spaceScan" : 0.1,
+      "spaces" : [ [-1, 0], [-1, 1], [0, 0], [0, 1] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "right" ],
+      "direction" : "right"
+
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [345, 1375]
+    },
+    {
+      "duration" : [1175, 2375]
+    },
+    {
+      "alts" : 5,
+      "duration" : [1585, 2340]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "wallclingseed_ltHarvest",
+      "resetToStage" : 2
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "itemName" : "glowfibrered",
+  "rarity" : "Uncommon",
+  "price" : 390,
+  "inventoryIcon" : "glowfibrered.png",
+  "description" : "Bioluminescent plant fibres, dripping with thick, red juices.",
+  "shortdescription" : "Red Glow Fibre",
+  "handPosition" : [0, 0],
+  "effects" : [ [
+    {
+        "effect" : "foodheal45",
+        "duration" : 15
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 90
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "redwashslurpee", "glowfibreswirl" ]
+}

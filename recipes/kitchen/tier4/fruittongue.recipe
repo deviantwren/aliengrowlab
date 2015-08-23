@@ -2,10 +2,9 @@
   "input" : [
     { "item" : "inkbulb", "count" : 3 },
     { "item" : "rainbowgourdfruit", "count" : 3 },
-    { "item" : "glowfibreyellow", "count" : 5 },
-    { "item" : "glowfibregreen", "count" : 5 },
+    { "item" : "glowfibreswirl", "count" : 1 },
     { "item" : "ice", "count" : 7 }
   ],
-  "output" : { "item" : "inktongue", "count" : 1 },
+  "output" : { "item" : "fruittongue", "count" : 1 },
   "groups" : [ "kitchen", "consumables", "foodhealing", "foodmobility", "foodenergyboost", "licherefood" ]
 }

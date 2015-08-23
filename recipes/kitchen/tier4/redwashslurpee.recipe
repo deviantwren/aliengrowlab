@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "glowfibrered", "count" : 6 },
+    { "item" : "ice", "count" : 6 }
+  ],
+  "output" : { "item" : "redwashslurpee", "count" : 1 },
+  "groups" : [ "kitchen", "consumables", "foodhealing", "foodhealthboost", "foodenergyboost", "licherefood" ]
+}

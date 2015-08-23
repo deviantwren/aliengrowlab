@@ -1,0 +1,23 @@
+{
+  "itemName" : "glowfibrepurple",
+  "rarity" : "Uncommon",
+  "price" : 310,
+  "inventoryIcon" : "glowfibrepurple.png",
+  "description" : "Bioluminescent plant fibres, dripping with purple, inky juices.",
+  "shortdescription" : "Purple Glow Fibre",
+  "handPosition" : [0, 0],
+  "effects" : [ [
+    {
+        "effect" : "foodheal35",
+        "duration" : 10
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "inkjuice", "inkbrain", "glowfibreswirl" ]
+}

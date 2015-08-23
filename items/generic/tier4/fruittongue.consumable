@@ -1,10 +1,10 @@
 {
-  "itemName" : "inktongue",
+  "itemName" : "fruittongue",
   "rarity" : "Rare",
   "price" : 5100,
-  "inventoryIcon" : "inktongue.png",
-  "description" : "Yum! It's SO MUCH GOOD STUFF! Inkbulb-rainbowgourd-fruit brain-frost! Eatnow!",
-  "shortdescription" : "Ink Tongue",
+  "inventoryIcon" : "fruittongue.png",
+  "description" : "Yum! It's TOO MUCH GOOD STUFF! Sugary, flavory brain-frost!",
+  "shortdescription" : "Fruit Tongue",
   "handPosition" : [-4, -4],
   "effects" : [ [
 	    {
