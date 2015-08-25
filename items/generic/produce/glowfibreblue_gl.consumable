@@ -1,0 +1,22 @@
+{
+  "itemName" : "glowfibreblue_gl",
+  "rarity" : "Uncommon",
+  "price" : 310,
+  "inventoryIcon" : "glowfibreblue_gl.png",
+  "description" : "Bioluminescent plant fibres with moving, tiny, blue hairs.",
+  "shortdescription" : "Blue Glow Fibre",
+  "handPosition" : [0, 0],
+  "effects" : [ [
+    {
+        "effect" : "nofalldamage",
+        "duration" : 20
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

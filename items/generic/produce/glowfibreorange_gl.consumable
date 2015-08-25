@@ -1,0 +1,22 @@
+{
+  "itemName" : "glowfibreorange_gl",
+  "rarity" : "Uncommon",
+  "price" : 310,
+  "inventoryIcon" : "glowfibreorange_gl.png",
+  "description" : "Orange, bioluminescent plant fibres.",
+  "shortdescription" : "Orange Glow Fibre",
+  "handPosition" : [0, 0],
+  "effects" : [ [
+    {
+        "effect" : "nofalldamage",
+        "duration" : 20
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

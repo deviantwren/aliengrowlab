@@ -1,8 +1,8 @@
 {
-  "itemName" : "glowfibrered",
+  "itemName" : "glowfibrered_gl",
   "rarity" : "Uncommon",
   "price" : 390,
-  "inventoryIcon" : "glowfibrered.png",
+  "inventoryIcon" : "glowfibrered_gl.png",
   "description" : "Bioluminescent plant fibres, dripping with thick, red juices.",
   "shortdescription" : "Red Glow Fibre",
   "handPosition" : [0, 0],

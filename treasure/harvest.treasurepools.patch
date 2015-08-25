@@ -5,7 +5,7 @@
   "value" : [
     [0, {
       "pool" : [
-        {"weight" : 0.75, "item" : "glowfibreyellow"},
+        {"weight" : 0.75, "item" : "glowfibreyellow_gl"},
         {"weight" : 0.15, "item" : "inkbulb"},
         {"weight" : 0.05, "item" : "inkpod"},
         {"weight" : 0.05, "item" : "inkbulbseed"}
@@ -24,12 +24,12 @@
     [0, {
       "pool" : [
         {"weight" : 0.1, "item" : "rainbowgourdfruit"},
-        {"weight" : 0.15, "item" : "glowfibrered"},
-        {"weight" : 0.15, "item" : "glowfibrepurple"},
-        {"weight" : 0.15, "item" : "glowfibreblue"},
-        {"weight" : 0.15, "item" : "glowfibregreen"},
-        {"weight" : 0.15, "item" : "glowfibreorange"},
-        {"weight" : 0.15, "item" : "glowfibreyellow"}
+        {"weight" : 0.15, "item" : "glowfibrered_gl"},
+        {"weight" : 0.15, "item" : "glowfibrepurple_gl"},
+        {"weight" : 0.15, "item" : "glowfibreblue_gl"},
+        {"weight" : 0.15, "item" : "glowfibregreen_gl"},
+        {"weight" : 0.15, "item" : "glowfibreorange_gl"},
+        {"weight" : 0.15, "item" : "glowfibreyellow_gl"}
       ],
       "poolRounds" : [
         [0.6, 21],
@@ -45,8 +45,8 @@
   "value" : [
     [0, {
       "pool" : [
-        {"weight" : 0.4, "item" : "glowfibreorange"},
-        {"weight" : 0.4, "item" : "glowfibreyellow"},
+        {"weight" : 0.4, "item" : "glowfibreorange_gl"},
+        {"weight" : 0.4, "item" : "glowfibreyellow_gl"},
         {"weight" : 0.2, "item" : "plantfibre"}
       ],
       "poolRounds" : [
@@ -63,8 +63,8 @@
   "value" : [
     [0, {
       "pool" : [
-        {"weight" : 0.4, "item" : "glowfibreblue"},
-        {"weight" : 0.4, "item" : "glowfibregreen"},
+        {"weight" : 0.4, "item" : "glowfibreblue_gl"},
+        {"weight" : 0.4, "item" : "glowfibregreen_gl"},
         {"weight" : 0.2, "item" : "plantfibre"}
       ],
       "poolRounds" : [
@@ -81,8 +81,8 @@
   "value" : [
     [0, {
       "pool" : [
-        {"weight" : 0.4, "item" : "liquidalienjuice"},
-        {"weight" : 0.5, "item" : "glowfibrepurple"},
+        {"weight" : 0.4, "item" : "liquidmilk"},
+        {"weight" : 0.5, "item" : "glowfibrepurple_gl"},
         {"weight" : 0.1, "item" : "plantfibre"}
       ],
       "poolRounds" : [
@@ -99,7 +99,7 @@
   "value" : [
     [0, {
       "pool" : [
-        {"weight" : 0.98, "item" : "liquidalienjuice"},
+        {"weight" : 0.98, "item" : "liquidmilk"},
         {"weight" : 0.02, "item" : "driporbseed"}
       ],
       "poolRounds" : [
@@ -115,9 +115,9 @@
   "value" : [
     [0, {
       "pool" : [
-        {"weight" : 0.6, "item" : "liquidalienjuice"},
-        {"weight" : 0.1, "item" : "glowfibreblue"},
-        {"weight" : 0.1, "item" : "glowfibrepurple"},
+        {"weight" : 0.6, "item" : "liquidmilk"},
+        {"weight" : 0.1, "item" : "glowfibreblue_gl"},
+        {"weight" : 0.1, "item" : "glowfibrepurple_gl"},
         {"weight" : 0.1, "item" : "bone"},
         {"weight" : 0.05, "item" : "brain"},
         {"weight" : 0.05, "item" : "driporbseed"}

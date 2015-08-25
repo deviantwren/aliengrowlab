@@ -1,0 +1,22 @@
+{
+  "itemName" : "glowfibregreen_gl",
+  "rarity" : "Uncommon",
+  "price" : 310,
+  "inventoryIcon" : "glowfibregreen_gl.png",
+  "description" : "Bioluminescent plant fibres pulsing with a faint, greenish radiance.",
+  "shortdescription" : "Green Glow Fibre",
+  "handPosition" : [0, 0],
+  "effects" : [ [
+    {
+        "effect" : "maxenergyboosts40",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

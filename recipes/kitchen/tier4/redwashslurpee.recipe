@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "glowfibrered", "count" : 6 },
+    { "item" : "glowfibrered_gl", "count" : 6 },
     { "item" : "ice", "count" : 6 }
   ],
   "output" : { "item" : "redwashslurpee", "count" : 1 },

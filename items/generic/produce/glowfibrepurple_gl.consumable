@@ -1,8 +1,8 @@
 {
-  "itemName" : "glowfibrepurple",
+  "itemName" : "glowfibrepurple_gl",
   "rarity" : "Uncommon",
   "price" : 310,
-  "inventoryIcon" : "glowfibrepurple.png",
+  "inventoryIcon" : "glowfibrepurple_gl.png",
   "description" : "Bioluminescent plant fibres, dripping with purple, inky juices.",
   "shortdescription" : "Purple Glow Fibre",
   "handPosition" : [0, 0],

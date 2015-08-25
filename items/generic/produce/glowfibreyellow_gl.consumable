@@ -1,0 +1,22 @@
+{
+  "itemName" : "glowfibreyellow_gl",
+  "rarity" : "Uncommon",
+  "price" : 310,
+  "inventoryIcon" : "glowfibreyellow_gl.png",
+  "description" : "Yellow, bioluminescent plant fibres, radiating like the star.",
+  "shortdescription" : "Yellow Glow Fibre",
+  "handPosition" : [0, 0],
+  "effects" : [ [
+    {
+        "effect" : "maxenergyboost40",
+        "duration" : 60
+    },
+    {
+        "effect" : "wellfed",
+        "duration" : 60
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

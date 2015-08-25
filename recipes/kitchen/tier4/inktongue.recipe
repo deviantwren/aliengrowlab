@@ -2,8 +2,8 @@
   "input" : [
     { "item" : "inkbulb", "count" : 3 },
     { "item" : "rainbowgourdfruit", "count" : 3 },
-    { "item" : "glowfibreyellow", "count" : 5 },
-    { "item" : "glowfibregreen", "count" : 5 },
+    { "item" : "glowfibreyellow_gl", "count" : 5 },
+    { "item" : "glowfibregreen_gl", "count" : 5 },
     { "item" : "ice", "count" : 7 }
   ],
   "output" : { "item" : "inktongue", "count" : 1 },
