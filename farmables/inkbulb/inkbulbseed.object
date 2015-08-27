@@ -1,5 +1,6 @@
 {
   "objectName" : "inkbulbseed",
+  "tags" : ["nature"],
   "rarity" : "Rare",
   "category" : "farmable",
   "description" : "Inkbulb.  It's a lamp-like plant with purplish-black hairs all over it.",
@@ -53,5 +54,7 @@
       "harvestPool" : "inkbulbHarvest",
       "resetToStage" : 2
     }
-  ]
+  ],
+  "consumeSoilMoisture" : false,
+  "maxImmersion" : 0.35
 }

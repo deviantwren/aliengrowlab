@@ -1,6 +1,7 @@
 {
   "objectName" : "wilddriporbseedseed",
-  "rarity" : "Legendary",
+  "tags" : ["nature"],
+  "rarity" : "Rare",
   "category" : "farmable",
   "description" : "A seed with an odd resemblance to the progeny seeds of a Floran.",
   "shortdescription" : "Drip Orb Seed",
@@ -59,5 +60,8 @@
 
   "breakDropOptions" : [
     [ [ "driporbseed", 1, { } ] ]
-  ]
+  ],
+
+  "consumeSoilMoisture" : false,
+  "maxImmersion" : 0.35
 }

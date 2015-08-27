@@ -1,5 +1,6 @@
 {
   "objectName" : "wildrainbowgourdseed",
+  "tags" : ["nature"],
   "rarity" : "Rare",
   "category" : "farmable",
   "description" : "Rainbowgourd.  It's a colorful plant that grows really slowly.",
@@ -53,5 +54,7 @@
       "harvestPool" : "rainbowgourdHarvest",
       "resetToStage" : 2
     }
-  ]
+  ],
+  "consumeSoilMoisture" : false,
+  "maxImmersion" : 0.1
 }

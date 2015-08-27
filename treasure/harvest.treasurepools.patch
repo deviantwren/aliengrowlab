@@ -81,7 +81,7 @@
   "value" : [
     [0, {
       "pool" : [
-        {"weight" : 0.4, "item" : "liquidmilk"},
+        {"weight" : 0.4, "item" : "liquidlicherejuice"},
         {"weight" : 0.5, "item" : "glowfibrepurple_gl"},
         {"weight" : 0.1, "item" : "plantfibre"}
       ],
@@ -99,7 +99,7 @@
   "value" : [
     [0, {
       "pool" : [
-        {"weight" : 0.98, "item" : "liquidmilk"},
+        {"weight" : 0.98, "item" : "liquidlicherejuice"},
         {"weight" : 0.02, "item" : "driporbseed"}
       ],
       "poolRounds" : [
@@ -115,7 +115,7 @@
   "value" : [
     [0, {
       "pool" : [
-        {"weight" : 0.6, "item" : "liquidmilk"},
+        {"weight" : 0.6, "item" : "liquidlicherejuice"},
         {"weight" : 0.1, "item" : "glowfibreblue_gl"},
         {"weight" : 0.1, "item" : "glowfibrepurple_gl"},
         {"weight" : 0.1, "item" : "bone"},

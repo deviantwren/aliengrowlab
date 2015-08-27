@@ -1,0 +1,26 @@
+[
+  {
+  "op" : "add",
+  "path" : "/liquids/27",
+  "value" : {
+    "name" : "licherejuice",
+    "description" : "Iridescent Alien Liquid",
+    "tickDelta" : 1, 
+    "color" : [255, 255, 200, 230],
+    "radiantLight" : [120, 200, 230],
+    "statusEffects" : [ "healingwater" ],
+    "itemDrop" : "licherejuice",
+
+    "interactions" : [
+      {
+        "liquid" : 8,
+        "liquidResult" : 0
+      }
+    ],
+
+    "texture" : "/liquids/licherejuice/licherejuiceicon.png",
+    "bottomLightMix" : [255, 0, 138],
+    "textureMovementFactor" : 2.6
+    }
+  }
+] 

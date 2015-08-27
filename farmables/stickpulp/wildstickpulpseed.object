@@ -1,5 +1,6 @@
 {
   "objectName" : "wildstickpulpseed",
+  "tags" : ["nature"],
   "rarity" : "Rare",
   "category" : "farmable",
   "description" : "Stickpulp.  It's an ugly stick-of-a-plant growing out glowing pulp.",
@@ -53,5 +54,7 @@
       "harvestPool" : "stickpulpHarvest",
       "resetToStage" : 2
     }
-  ]
+  ],
+  "consumeSoilMoisture" : false,
+  "maxImmersion" : 0.084
 }

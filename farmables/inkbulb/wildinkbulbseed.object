@@ -1,5 +1,6 @@
 {
   "objectName" : "wildinkbulbseed",
+  "tags" : ["nature"],
   "rarity" : "Rare",
   "category" : "farmable",
   "description" : "Inkbulb.  It's a lamp-like plant with purplish-black hairs all over it.",
@@ -59,5 +60,7 @@
 
   "breakDropOptions" : [
     [ [ "inkbulbseed", 1, { } ] ]
-  ]
+  ],
+  "consumeSoilMoisture" : false,
+  "maxImmersion" : 0.35
 }

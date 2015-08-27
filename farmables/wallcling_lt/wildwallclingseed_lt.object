@@ -1,5 +1,6 @@
 {
   "objectName" : "wildwallclingseed_lt",
+  "tags" : ["nature"],
   "rarity" : "Rare",
   "category" : "farmable",
   "description" : "Orange Wallcling. It's a lamp-like plant that grows on walls.",
@@ -66,5 +67,7 @@
       "harvestPool" : "wallclingseed_ltHarvest",
       "resetToStage" : 2
     }
-  ]
+  ],
+  "consumeSoilMoisture" : false,
+  "maxImmersion" : 0.35
 }
