@@ -7,7 +7,7 @@
     "description" : "Iridescent Alien Liquid",
     "tickDelta" : 1, 
     "color" : [255, 255, 200, 230],
-    "radiantLight" : [120, 200, 230],
+    "radiantLight" : [20, 100, 130],
     "statusEffects" : [ "healingwater" ],
     "itemDrop" : "licherejuice",
 
@@ -18,7 +18,7 @@
       }
     ],
 
-    "texture" : "/liquids/licherejuice/licherejuiceicon.png",
+    "texture" : "/liquids/licherejuicetex.png",
     "bottomLightMix" : [255, 0, 138],
     "textureMovementFactor" : 2.6
     }
