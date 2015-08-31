@@ -53,14 +53,14 @@
 
   "stages" : [
     {
-      "duration" : [345, 1375]
+      "duration" : [10, 50]
     },
     {
-      "duration" : [1175, 2375]
+      "duration" : [50, 110]
     },
     {
       "alts" : 5,
-      "duration" : [1585, 2340]
+      "duration" : [140, 390]
     },
     {
       "alts" : 5,
@@ -69,5 +69,5 @@
     }
   ],
   "consumeSoilMoisture" : false,
-  "maxImmersion" : 0.35
+  "maxImmersion" : 0.75
 }

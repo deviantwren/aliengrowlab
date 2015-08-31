@@ -5,10 +5,10 @@
   "value" : [
     [0, {
       "pool" : [
-        {"weight" : 0.30, "item" : "glowfibreyellow_gl"},
-        {"weight" : 0.25, "item" : "inkbulb"},
-        {"weight" : 0.25, "item" : "inkpod"},
-        {"weight" : 0.20, "item" : "inkbulbseed"}
+        {"weight" : 0.35, "item" : "glowfibreyellow_gl"},
+        {"weight" : 0.30, "item" : "inkbulb"},
+        {"weight" : 0.30, "item" : "inkpod"},
+        {"weight" : 0.05, "item" : "inkbulbseed"}
       ],
       "poolRounds" : [
         [0.7, 3],
@@ -23,57 +23,57 @@
   "value" : [
     [0, {
       "pool" : [
-        {"weight" : 0.2, "item" : "rainbowgourdfruit"},
-        {"weight" : 0.1, "item" : "glowfibrered_gl"},
+        {"weight" : 0.3, "item" : "rainbowgourdfruit"},
+        {"weight" : 0.15, "item" : "glowfibrered_gl"},
         {"weight" : 0.1, "item" : "glowfibrepurple_gl"},
         {"weight" : 0.1, "item" : "glowfibreblue_gl"},
         {"weight" : 0.1, "item" : "glowfibregreen_gl"},
         {"weight" : 0.1, "item" : "glowfibreorange_gl"},
         {"weight" : 0.1, "item" : "glowfibreyellow_gl"},
-        {"weight" : 0.2, "item" : "rainbowgourdseed"}
+        {"weight" : 0.05, "item" : "rainbowgourdseed"}
       ],
       "poolRounds" : [
-        [0.5, 4],
-        [0.4, 5],
-        [0.1, 7]
+        [0.5, 7],
+        [0.4, 9],
+        [0.1, 11]
       ]
     } ]
   ]
   },
   {
   "op" : "add",
-  "path" : "/wallcling_ltHarvest",
+  "path" : "/wallclingseed_ltHarvest",
   "value" : [
     [0, {
       "pool" : [
-        {"weight" : 0.3, "item" : "glowfibreorange_gl"},
-        {"weight" : 0.3, "item" : "glowfibreyellow_gl"},
+        {"weight" : 0.4, "item" : "glowfibreorange_gl"},
+        {"weight" : 0.4, "item" : "glowfibreyellow_gl"},
         {"weight" : 0.1, "item" : "plantfibre"},
-        {"weight" : 0.3, "item" : "wallclingseed_lt"}
+        {"weight" : 0.1, "item" : "wallclingseed_lt"}
       ],
       "poolRounds" : [
         [0.6, 3],
         [0.3, 4],
-        [0.1, 2]
+        [0.1, 5]
       ]
     } ]
   ]
   },
   {
   "op" : "add",
-  "path" : "/wallcling_ltHarvest",
+  "path" : "/wallclingseed_dkHarvest",
   "value" : [
     [0, {
       "pool" : [
-        {"weight" : 0.3, "item" : "glowfibreblue_gl"},
-        {"weight" : 0.3, "item" : "glowfibregreen_gl"},
+        {"weight" : 0.4, "item" : "glowfibreblue_gl"},
+        {"weight" : 0.4, "item" : "glowfibregreen_gl"},
         {"weight" : 0.1, "item" : "plantfibre"},
-        {"weight" : 0.3, "item" : "wallclingseed_dk"}
+        {"weight" : 0.1, "item" : "wallclingseed_dk"}
       ],
       "poolRounds" : [
         [0.6, 3],
         [0.3, 4],
-        [0.1, 2]
+        [0.1, 5]
       ]
     } ]
   ]
@@ -84,14 +84,14 @@
   "value" : [
     [0, {
       "pool" : [
-        {"weight" : 0.4, "item" : "liquidlicherejuice"},
-        {"weight" : 0.4, "item" : "glowfibrepurple_gl"},
-        {"weight" : 0.2, "item" : "stickpulpseed"}
+        {"weight" : 0.5, "item" : "liquidlicherejuice"},
+        {"weight" : 0.45, "item" : "glowfibrepurple_gl"},
+        {"weight" : 0.05, "item" : "stickpulpseed"}
       ],
       "poolRounds" : [
-        [0.6, 2],
-        [0.3, 4],
-        [0.1, 3]
+        [0.6, 4],
+        [0.3, 5],
+        [0.1, 6]
       ]
     } ]
   ]
@@ -102,11 +102,11 @@
   "value" : [
     [0, {
       "pool" : [
-        {"weight" : 0.98, "item" : "liquidlicherejuice"},
-        {"weight" : 0.02, "item" : "driporbseed"}
+        {"weight" : 0.95, "item" : "liquidlicherejuice"},
+        {"weight" : 0.05, "item" : "driporbseed"}
       ],
       "poolRounds" : [
-        [0.9, 5],
+        [0.9, 7],
         [0.1, 15]
       ]
     } ]
@@ -122,7 +122,7 @@
         {"weight" : 0.1, "item" : "glowfibreblue_gl"},
         {"weight" : 0.1, "item" : "glowfibrepurple_gl"},
         {"weight" : 0.1, "item" : "bone"},
-        {"weight" : 0.05, "item" : "brain"},
+        {"weight" : 0.05, "item" : "inferiorbrain"},
         {"weight" : 0.05, "item" : "driporbseed"}
       ],
       "poolRounds" : [
