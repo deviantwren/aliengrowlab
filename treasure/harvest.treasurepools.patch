@@ -24,13 +24,13 @@
     [0, {
       "pool" : [
         {"weight" : 0.3, "item" : "rainbowgourdfruit"},
-        {"weight" : 0.15, "item" : "glowfibrered_gl"},
+        {"weight" : 0.175, "item" : "glowfibrered_gl"},
         {"weight" : 0.1, "item" : "glowfibrepurple_gl"},
         {"weight" : 0.1, "item" : "glowfibreblue_gl"},
         {"weight" : 0.1, "item" : "glowfibregreen_gl"},
         {"weight" : 0.1, "item" : "glowfibreorange_gl"},
         {"weight" : 0.1, "item" : "glowfibreyellow_gl"},
-        {"weight" : 0.05, "item" : "rainbowgourdseed"}
+        {"weight" : 0.025, "item" : "rainbowgourdseed"}
       ],
       "poolRounds" : [
         [0.45, 7],
