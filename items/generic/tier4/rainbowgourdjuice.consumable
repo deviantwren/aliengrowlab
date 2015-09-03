@@ -4,7 +4,7 @@
   "price" : 4910,
   "inventoryIcon" : "rainbowgourdjuice.png",
   "description" : "Sugary, sweet, and delicious! It's amazing!",
-  "shortdescription" : "Ink Juice",
+  "shortdescription" : "Rainbowgourd Juice",
   "handPosition" : [0, 11],
   "effects" : [ [
     {
