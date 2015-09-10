@@ -1,0 +1,11 @@
+{
+  "itemName" : "bonefibre_gl",
+  "price" : 0,
+  "rarity" : "Rare",
+  "inventoryIcon" : "bonefibre_gl.png",
+  "description" : "It's flexible like fibre but strong and impact-resilient like bone.",
+  "shortdescription" : "Bonefibre",
+  "learnBlueprintsOnPickup" : [
+    "lr_tier4_3head", "lr_tier4_3chest", "lr_tier4_3legs", "lr_tier4_3back"  
+  ]
+}

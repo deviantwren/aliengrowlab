@@ -1,0 +1,53 @@
+{
+  "objectName" : "creeproot",
+  "tags" : ["nature"],
+  "rarity" : "Rare",
+  "category" : "farmable",
+  "description" : "Creeproot. Grows on ceilings, and looks like roots.",
+  "shortdescription" : "Creeproot Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 3155,
+
+  "apexDescription" : "Roots.",
+  "avianDescription" : "Roots. They generally don't taste good.",
+  "floranDescription" : "Plant feet.",
+  "glitchDescription" : "Analyzing. Nothing.",
+  "humanDescription" : "What? Roots?",
+  "hylotlDescription" : "A vile plant. Useless for any dish.",
+
+  "inventoryIcon" : "creeprootseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "creeprootseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "top" ]
+
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [250, 300]
+    },
+    {
+      "duration" : [170, 300]
+    },
+    {
+      "alts" : 5,
+      "duration" : [300, 990]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "creeprootHarvest",
+      "resetToStage" : 1
+    }
+  ],
+  "consumeSoilMoisture" : false,
+  "maxImmersion" : 0.75
+}

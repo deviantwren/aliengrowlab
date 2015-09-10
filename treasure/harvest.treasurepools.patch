@@ -96,6 +96,41 @@
   },
   {
   "op" : "add",
+  "path" : "/creeprootHarvest",
+  "value" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.75, "item" : "plantfibre"},
+        {"weight" : 0.24, "item" : "creeprootseed"},
+        {"weight" : 0.01, "item" : "bonerootseed"}
+      ],
+      "poolRounds" : [
+        [0.5, 0],
+        [0.25, 1],
+        [0.25, 2]
+      ]
+    } ]
+  ]
+  },
+  {
+  "op" : "add",
+  "path" : "/bonerootHarvest",
+  "value" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.75, "item" : "bonefibre_gl"},
+        {"weight" : 0.05, "item" : "bonerootseed"}
+      ],
+      "poolRounds" : [
+        [0.5, 1],
+        [0.25, 2],
+        [0.25, 3]
+      ]
+    } ]
+  ]
+  },
+  {
+  "op" : "add",
   "path" : "/driporbseedHarvest",
   "value" : [
     [0, {

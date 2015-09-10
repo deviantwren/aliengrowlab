@@ -1,0 +1,53 @@
+{
+  "objectName" : "boneroot",
+  "tags" : ["nature"],
+  "rarity" : "Rare",
+  "category" : "farmable",
+  "description" : "Boneroot. A rare, solid plant that grows on ceilings, and looks like roots.",
+  "shortdescription" : "Boneroot Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 3155,
+
+  "apexDescription" : "Roots?",
+  "avianDescription" : "These are hard; they could break teeth.",
+  "floranDescription" : "Bone feet.",
+  "glitchDescription" : "Analyzing. Nothing.",
+  "humanDescription" : "What? Roots?",
+  "hylotlDescription" : "Coral-like roots. Useless and vile.",
+
+  "inventoryIcon" : "bonerootseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "bonerootseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "top" ]
+
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [220, 500]
+    },
+    {
+      "duration" : [200, 500]
+    },
+    {
+      "alts" : 5,
+      "duration" : [400, 990]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "bonerootHarvest",
+      "resetToStage" : 1
+    }
+  ],
+  "consumeSoilMoisture" : false,
+  "maxImmersion" : 0.75
+}
