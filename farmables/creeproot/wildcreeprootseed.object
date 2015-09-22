@@ -1,5 +1,5 @@
 {
-  "objectName" : "creeproot",
+  "objectName" : "wildcreeprootseed",
   "tags" : ["nature"],
   "rarity" : "Rare",
   "category" : "farmable",
@@ -33,14 +33,14 @@
 
   "stages" : [
     {
-      "duration" : [250, 300]
+      "duration" : [1250, 1300]
     },
     {
-      "duration" : [170, 300]
+      "duration" : [1170, 1300]
     },
     {
       "alts" : 5,
-      "duration" : [300, 990]
+      "duration" : [1300, 1990]
     },
     {
       "alts" : 5,
