@@ -52,8 +52,9 @@
         {"weight" : 0.1, "item" : "wallclingseed_lt"}
       ],
       "poolRounds" : [
+        [0.2, 2],
         [0.6, 1],
-        [0.4, 0]
+        [0.2, 0]
       ]
     } ]
   ]
@@ -69,8 +70,9 @@
         {"weight" : 0.1, "item" : "wallclingseed_dk"}
       ],
       "poolRounds" : [
+        [0.2, 2],
         [0.6, 1],
-        [0.4, 0]
+        [0.2, 0]
       ]
     } ]
   ]
