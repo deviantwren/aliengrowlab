@@ -53,19 +53,19 @@
 
   "stages" : [
     {
-      "duration" : [40, 55]
+      "duration" : [20, 60]
     },
     {
-      "duration" : [60, 75]
+      "duration" : [40, 80]
     },
     {
       "alts" : 5,
-      "duration" : [215, 390]
+      "duration" : [140, 240]
     },
     {
       "alts" : 5,
       "harvestPool" : "wallclingseed_dkHarvest",
-      "resetToStage" : 2
+      "resetToStage" : 1
     }
   ],
   "consumeSoilMoisture" : false,

@@ -40,19 +40,19 @@
 
   "stages" : [
     {
-      "duration" : [210, 300]
+      "duration" : [30, 100]
     },
     {
-      "duration" : [210, 300]
+      "duration" : [270, 350]
     },
     {
       "alts" : 5,
-      "duration" : [300, 990]
+      "duration" : [360, 990]
     },
     {
       "alts" : 5,
       "harvestPool" : "inkbulbHarvest",
-      "resetToStage" : 2
+      "resetToStage" : 1
     }
   ],
   "consumeSoilMoisture" : false,

@@ -52,7 +52,7 @@
     {
       "alts" : 5,
       "harvestPool" : "driporbHarvest",
-      "resetToStage" : 2
+      "resetToStage" : 1
     }
   ],
 

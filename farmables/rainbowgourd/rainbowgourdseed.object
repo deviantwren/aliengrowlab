@@ -40,19 +40,19 @@
 
   "stages" : [
     {
-      "duration" : [270, 630]
+      "duration" : [270, 430]
     },
     {
-      "duration" : [630, 900]
+      "duration" : [430, 600]
     },
     {
       "alts" : 5,
-      "duration" : [1170, 2970]
+      "duration" : [900, 1170]
     },
     {
       "alts" : 5,
       "harvestPool" : "rainbowgourdseedHarvest",
-      "resetToStage" : 2
+      "resetToStage" : 1
     }
   ],
   "consumeSoilMoisture" : false,
