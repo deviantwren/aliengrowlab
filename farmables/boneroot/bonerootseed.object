@@ -20,11 +20,11 @@
   "orientations" : [
     {
       "dualImage" : "bonerootseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [0, -8],
       "frames" : 1,
       "animationCycle" : 0.5,
 
-      "spaces" : [ [0, 0], [0, 1] ],
+      "spaces" : [ [0, 0], [0, -1] ],
       "requireTilledAnchors" : false,
       "anchors" : [ "top" ]
 
