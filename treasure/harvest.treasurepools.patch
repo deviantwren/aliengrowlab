@@ -47,14 +47,14 @@
   "value" : [
     [0, {
       "pool" : [
-        {"weight" : 0.45, "item" : "glowfibreorange_gl"},
-        {"weight" : 0.45, "item" : "glowfibreyellow_gl"},
-        {"weight" : 0.05, "item" : "wallclingseed_lt"}
+        {"weight" : 0.49, "item" : "glowfibreorange_gl"},
+        {"weight" : 0.49, "item" : "glowfibreyellow_gl"},
+        {"weight" : 0.02, "item" : "wallclingseed_lt"}
       ],
       "poolRounds" : [
-        [0.3, 2],
-        [0.6, 1],
-        [0.1, 0]
+        [0.1, 4],
+        [0.5, 3],
+        [0.4, 2]
       ]
     } ]
   ]
@@ -65,14 +65,14 @@
   "value" : [
     [0, {
       "pool" : [
-        {"weight" : 0.45, "item" : "glowfibreblue_gl"},
-        {"weight" : 0.45, "item" : "glowfibregreen_gl"},
-        {"weight" : 0.05, "item" : "wallclingseed_dk"}
+        {"weight" : 0.49, "item" : "glowfibreblue_gl"},
+        {"weight" : 0.49, "item" : "glowfibregreen_gl"},
+        {"weight" : 0.02, "item" : "wallclingseed_dk"}
       ],
       "poolRounds" : [
-        [0.3, 2],
-        [0.6, 1],
-        [0.1, 0]
+        [0.1, 4],
+        [0.5, 3],
+        [0.4, 2]
       ]
     } ]
   ]
@@ -83,10 +83,10 @@
   "value" : [
     [0, {
       "pool" : [
-        {"weight" : 0.25, "item" : "liquidlicherejuice"},
+        {"weight" : 0.27, "item" : "liquidlicherejuice"},
         {"weight" : 0.4, "item" : "liquidpoison"},
         {"weight" : 0.3, "item" : "glowfibrepurple_gl"},
-        {"weight" : 0.05, "item" : "stickpulpseed"}
+        {"weight" : 0.03, "item" : "stickpulpseed"}
       ],
       "poolRounds" : [
         [0.6, 3],
@@ -102,13 +102,13 @@
   "value" : [
     [0, {
       "pool" : [
-        {"weight" : 0.80, "item" : "plantfibre"},
-        {"weight" : 0.19, "item" : "creeprootseed"},
+        {"weight" : 0.85, "item" : "plantfibre"},
+        {"weight" : 0.14, "item" : "creeprootseed"},
         {"weight" : 0.01, "item" : "bonerootseed"}
       ],
       "poolRounds" : [
-        [0.5, 1],
-        [0.4, 2],
+        [0.6, 1],
+        [0.3, 2],
         [0.1, 3]
       ]
     } ]

@@ -27,7 +27,7 @@
   "orientations" : [
     {
       "dualImage" : "stickpulpseed.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
+      "imagePosition" : [-4, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
 
@@ -40,14 +40,14 @@
 
   "stages" : [
     {
-      "duration" : [45, 65]
+      "duration" : [130, 185]
     },
     {
-      "duration" : [85, 115]
+      "duration" : [290, 415]
     },
     {
       "alts" : 5,
-      "duration" : [165, 385]
+      "duration" : [365, 585]
     },
     {
       "alts" : 5,

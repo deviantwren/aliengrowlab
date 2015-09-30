@@ -33,7 +33,7 @@
 
   "stages" : [
     {
-      "duration" : [60, 250]
+      "duration" : [50, 250]
     },
     {
       "duration" : [100, 350]
