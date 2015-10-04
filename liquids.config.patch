@@ -9,7 +9,7 @@
     "color" : [255, 255, 200, 230],
     "radiantLight" : [20, 100, 130],
     "statusEffects" : [ "healingwater" ],
-    "itemDrop" : "licherejuice",
+    "itemDrop" : "liquidlicherejuice",
 
     "interactions" : [
       {
