@@ -153,16 +153,16 @@
   "value" : [
     [0, {
       "pool" : [
-        {"weight" : 0.6, "item" : "liquidlicherejuice"},
-        {"weight" : 0.1, "item" : "glowfibreblue_gl"},
-        {"weight" : 0.1, "item" : "glowfibrepurple_gl"},
-        {"weight" : 0.1, "item" : "bone"},
-        {"weight" : 0.05, "item" : "inferiorbrain"},
-        {"weight" : 0.05, "item" : "driporbseed"}
+        {"weight" : 0.5, "item" : "liquidlicherejuice"},
+        {"weight" : 0.11, "item" : "glowfibreblue_gl"},
+        {"weight" : 0.11, "item" : "glowfibrepurple_gl"},
+        {"weight" : 0.11, "item" : "bone"},
+        {"weight" : 0.15, "item" : "inferiorbrain"},
+        {"weight" : 0.02, "item" : "driporbseed"}
       ],
       "poolRounds" : [
-        [0.9, 7],
-        [0.1, 11]
+        [0.9, 11],
+        [0.1, 15]
       ]
     } ]
   ]
