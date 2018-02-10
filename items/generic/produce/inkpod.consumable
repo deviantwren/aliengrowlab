@@ -1,21 +1,23 @@
 {
   "itemName" : "inkpod",
   "rarity" : "Uncommon",
-  "price" : 3330,
+  "price" : 310,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
   "inventoryIcon" : "inkpod.png",
   "description" : "Inkbulb pod.  It bristles with thousands of little hairs.",
   "shortdescription" : "Inkpod",
-  "handPosition" : [-6, -4],
+  "foodValue" : 3.5,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 9,
+  "handPosition" : [0, 0],
   "effects" : [ [
     {
-        "effect" : "rage",
-        "duration" : 45
-    },
-    {
-        "effect" : "wellfed",
-        "duration" : 60
+        "effect" : "ragefood",
+        "duration" : 25
     }
-  ] ],
+	] ],
   "blockingEffects" : [
     "wellfed"
   ],

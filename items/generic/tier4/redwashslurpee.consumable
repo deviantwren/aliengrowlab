@@ -1,29 +1,25 @@
 {
   "itemName" : "redwashslurpee",
   "rarity" : "Rare",
-  "price" : 2410,
+  "price" : 845,
+  "category" : "preparedFood",
   "inventoryIcon" : "redwashslurpee.png",
   "description" : "So much cold, thick fibre. It's so delicious and so fibrous!",
   "shortdescription" : "Red Wash Slurpee",
-  "handPosition" : [0, 11],
   "effects" : [ [
     {
-        "effect" : "foodheal120",
-        "duration" : 60
-    },
-    {
-        "effect" : "maxhealthboost40",
+        "effect" : "maxenergyscalingboostfood",
         "duration" : 270
     },
     {
-        "effect" : "maxenergyboost50",
-        "duration" : 270
-    },
-    {
-        "effect" : "wellfed",
+        "effect" : "maxenergyscalingboostfood",
         "duration" : 270
     }
   ] ],
+  "foodValue" : 85,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
   "blockingEffects" : [
     "wellfed"
   ],

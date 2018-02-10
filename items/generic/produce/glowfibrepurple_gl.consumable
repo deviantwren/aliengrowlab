@@ -2,18 +2,19 @@
   "itemName" : "glowfibrepurple_gl",
   "rarity" : "Uncommon",
   "price" : 310,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
   "inventoryIcon" : "glowfibrepurple_gl.png",
   "description" : "Bioluminescent plant fibres, dripping with purple, inky juices.",
   "shortdescription" : "Purple Glow Fibre",
+  "foodValue" : 2.5,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 150,
   "handPosition" : [0, 0],
   "effects" : [ [
     {
-        "effect" : "foodheal35",
-        "duration" : 10
-    },
-    {
-        "effect" : "wellfed",
-        "duration" : 60
+        "effect" : "bandageheal"
     }
   ] ],
   "blockingEffects" : [

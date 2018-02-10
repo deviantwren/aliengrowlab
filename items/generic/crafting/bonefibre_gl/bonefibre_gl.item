@@ -2,9 +2,11 @@
   "itemName" : "bonefibre_gl",
   "price" : 0,
   "rarity" : "Rare",
+  "category" : "craftingMaterial",
   "inventoryIcon" : "bonefibre_gl.png",
   "description" : "It's flexible like fibre but strong and impact-resilient like bone.",
   "shortdescription" : "Bonefibre",
+  "itemTags" : [ "reagent" ],
   "learnBlueprintsOnPickup" : [
   ]
 }

@@ -2,20 +2,16 @@
   "itemName" : "glowfibreblue_gl",
   "rarity" : "Uncommon",
   "price" : 310,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
   "inventoryIcon" : "glowfibreblue_gl.png",
   "description" : "Bioluminescent plant fibres with moving, tiny, blue hairs.",
   "shortdescription" : "Blue Glow Fibre",
+  "foodValue" : 1.25,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 150,
   "handPosition" : [0, 0],
-  "effects" : [ [
-    {
-        "effect" : "nofalldamage",
-        "duration" : 20
-    },
-    {
-        "effect" : "wellfed",
-        "duration" : 60
-    }
-  ] ],
   "blockingEffects" : [
     "wellfed"
   ]

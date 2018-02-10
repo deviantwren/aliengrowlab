@@ -1,0 +1,11 @@
+{
+	"name" : "aliengrowlab",
+	"version" : "",
+	"path" : ".",
+	"dependencies" : [ "" ],
+	"metadata" : {
+		"author" : "Mntle",
+		"description" : "Yes! My very own alien grow labs!",
+		"version" : "1.0"
+	}
+}

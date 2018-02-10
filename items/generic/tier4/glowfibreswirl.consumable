@@ -1,29 +1,33 @@
 {
   "itemName" : "glowfibreswirl",
   "rarity" : "Rare",
-  "price" : 5065,
-  "inventoryIcon" : "inkbrain.png",
+  "price" : 845,
+  "category" : "preparedFood",
+  "inventoryIcon" : "glowfibreswirl.png",
   "description" : "It's a swirl of pulpy, colorful, tasty fibre. So much fibre! Brainy nutrition for plants.",
   "shortdescription" : "Glow-Fibre Swirl",
-  "handPosition" : [0, -1],
   "effects" : [ [
-        {
-        "effect" : "foodheal210",
-        "duration" : 60
+    {
+        "effect" : "runboostfood",
+        "duration" : 428
     },
     {
-        "effect" : "maxhealthboost50",
-        "duration" : 120
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 428
     },
     {
-        "effect" : "maxenergyboost80",
-        "duration" : 120
+        "effect" : "runboostfood",
+        "duration" : 428
     },
     {
-        "effect" : "wellfed",
-        "duration" : 120
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 428
     }
   ] ],
+  "foodValue" : 95,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 3,
   "blockingEffects" : [
     "wellfed"
   ],

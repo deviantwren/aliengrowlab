@@ -1,0 +1,10 @@
+{
+  "version" : "1.0",
+  "friendlyName" : "Alien Grow Lab",
+  "link" : "",
+  "priority" : -1,
+  "steamContentId" : "",
+  "name" : "aliengrowlab",
+  "description" : "Adds farmable, alien plants of a variety of kinds and related recipes.",
+  "author" : "Mntle"
+}

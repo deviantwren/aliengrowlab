@@ -2,18 +2,20 @@
   "itemName" : "glowfibreorange_gl",
   "rarity" : "Uncommon",
   "price" : 310,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
   "inventoryIcon" : "glowfibreorange_gl.png",
   "description" : "Orange, bioluminescent plant fibres.",
   "shortdescription" : "Orange Glow Fibre",
+  "foodValue" : 1.25,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 150,
   "handPosition" : [0, 0],
   "effects" : [ [
     {
         "effect" : "nofalldamage",
-        "duration" : 20
-    },
-    {
-        "effect" : "wellfed",
-        "duration" : 60
+        "duration" : 7
     }
   ] ],
   "blockingEffects" : [

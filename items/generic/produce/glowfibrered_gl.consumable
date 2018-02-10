@@ -1,19 +1,20 @@
 {
   "itemName" : "glowfibrered_gl",
   "rarity" : "Uncommon",
-  "price" : 390,
+  "price" : 310,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
   "inventoryIcon" : "glowfibrered_gl.png",
   "description" : "Bioluminescent plant fibres, dripping with thick, red juices.",
   "shortdescription" : "Red Glow Fibre",
+  "foodValue" : 5.0,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 150,
   "handPosition" : [0, 0],
   "effects" : [ [
     {
-        "effect" : "foodheal50",
-        "duration" : 15
-    },
-    {
-        "effect" : "wellfed",
-        "duration" : 90
+        "effect" : "bandageheal"
     }
   ] ],
   "blockingEffects" : [

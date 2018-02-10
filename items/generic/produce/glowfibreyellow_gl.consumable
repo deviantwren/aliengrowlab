@@ -2,20 +2,16 @@
   "itemName" : "glowfibreyellow_gl",
   "rarity" : "Uncommon",
   "price" : 310,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
   "inventoryIcon" : "glowfibreyellow_gl.png",
   "description" : "Yellow, bioluminescent plant fibres, radiating like the star.",
   "shortdescription" : "Yellow Glow Fibre",
+  "foodValue" : 2.5,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 150,
   "handPosition" : [0, 0],
-  "effects" : [ [
-    {
-        "effect" : "maxenergyboost40",
-        "duration" : 60
-    },
-    {
-        "effect" : "wellfed",
-        "duration" : 60
-    }
-  ] ],
   "blockingEffects" : [
     "wellfed"
   ]

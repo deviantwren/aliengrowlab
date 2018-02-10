@@ -1,19 +1,24 @@
 {
   "itemName" : "rainbowgourdfruit",
   "rarity" : "Uncommon",
-  "price" : 3720,
+  "price" : 930,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
   "inventoryIcon" : "rainbowgourdfruiticon.png",
   "description" : "So soft and delicious. Yum!",
   "shortdescription" : "Rainbowgourd Fruit",
+  "foodValue" : 7.0,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 3,
+  "handPosition" : [0, 0],
   "effects" : [ [
     {
-        "effect" : "foodheal70",
-        "duration" : 30
-    },
-    {
-        "effect" : "wellfed",
-        "duration" : 90
+        "effect" : "bandageheal"
     }
   ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
   "learnBlueprintsOnPickup" : [ "rainbowgourdjuice" ]
 }

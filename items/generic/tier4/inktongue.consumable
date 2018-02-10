@@ -1,33 +1,37 @@
 {
   "itemName" : "inktongue",
   "rarity" : "Rare",
-  "price" : 5100,
+  "price" : 845,
+  "category" : "preparedFood",
   "inventoryIcon" : "inktongue.png",
   "description" : "Yum! It's SO MUCH GOOD STUFF! Inkbulb-rainbowgourd-fruit brain-frost! Eatnow!",
   "shortdescription" : "Ink Tongue",
-  "handPosition" : [-4, -4],
   "effects" : [ [
-	    {
-        "effect" : "foodheal240",
-        "duration" : 60
-    },
-	{
-        "effect" : "rage",
-        "duration" : 60
-    },
-	{
-        "effect" : "runboost25",
-        "duration" : 60
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 720
     },
     {
-        "effect" : "maxenergyboost140",
-        "duration" : 270
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 720
     },
     {
-        "effect" : "wellfed",
-        "duration" : 270
+        "effect" : "jumpboostfood",
+        "duration" : 720
+    },
+    {
+        "effect" : "ragefood",
+        "duration" : 135
+    },
+    {
+        "effect" : "runboostfood",
+        "duration" : 720
     }
   ] ],
+  "foodValue" : 45,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
   "blockingEffects" : [
     "wellfed"
   ]

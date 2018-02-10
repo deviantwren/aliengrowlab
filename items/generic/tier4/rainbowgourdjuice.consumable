@@ -1,29 +1,25 @@
 {
   "itemName" : "rainbowgourdjuice",
   "rarity" : "Rare",
-  "price" : 4910,
+  "price" : 945,
+  "category" : "preparedFood",
   "inventoryIcon" : "rainbowgourdjuice.png",
   "description" : "Sugary, sweet, and delicious! It's amazing!",
   "shortdescription" : "Rainbowgourd Juice",
-  "handPosition" : [0, 11],
   "effects" : [ [
     {
-        "effect" : "foodheal240",
-        "duration" : 60
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 720
     },
     {
-        "effect" : "maxhealthboost40",
-        "duration" : 270
-    },
-    {
-        "effect" : "maxenergyboost100",
-        "duration" : 270
-    },
-    {
-        "effect" : "wellfed",
-        "duration" : 270
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 720
     }
   ] ],
+  "foodValue" : 70,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
   "blockingEffects" : [
     "wellfed"
   ],

@@ -1,29 +1,29 @@
 {
   "itemName" : "inkjuice",
   "rarity" : "Rare",
-  "price" : 4965,
+  "price" : 845,
+  "category" : "preparedFood",
   "inventoryIcon" : "inkjuice.png",
   "description" : "Yum, yum! YUM! Thick inkbulb-pussplum shake! It's so cold and delicious!",
   "shortdescription" : "Ink Juice",
-  "handPosition" : [0, 11],
   "effects" : [ [
     {
-        "effect" : "foodheal240",
-        "duration" : 60
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 428
     },
     {
-        "effect" : "maxhealthboost40",
-        "duration" : 270
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 428
     },
     {
-        "effect" : "maxenergyboost100",
-        "duration" : 270
-    },
-    {
-        "effect" : "wellfed",
-        "duration" : 270
+        "effect" : "jumpboostfood",
+        "duration" : 720
     }
   ] ],
+  "foodValue" : 95,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
   "blockingEffects" : [
     "wellfed"
   ],

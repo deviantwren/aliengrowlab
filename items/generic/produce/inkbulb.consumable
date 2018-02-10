@@ -1,21 +1,22 @@
 {
   "itemName" : "inkbulb",
   "rarity" : "Uncommon",
-  "price" : 3330,
+  "price" : 310,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
   "inventoryIcon" : "inkbulb.png",
   "description" : "Dripping with black, inky juices, and covered in little, black hairs.",
   "shortdescription" : "Inkbulb",
-  "handPosition" : [0, 0],
+  "foodValue" : 7.0,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 5,
   "effects" : [ [
     {
-        "effect" : "rage",
+        "effect" : "ragefood",
         "duration" : 60
-    },
-    {
-        "effect" : "wellfed",
-        "duration" : 90
     }
-  ] ],
+	] ],
   "blockingEffects" : [
     "wellfed"
   ],

@@ -1,33 +1,29 @@
 {
   "itemName" : "fruittongue",
-  "rarity" : "Rare",
-  "price" : 5100,
+  "rarity" : "Uncommon",
+  "price" : 950,
+  "category" : "preparedFood",
   "inventoryIcon" : "fruittongue.png",
   "description" : "Yum! It's TOO MUCH GOOD STUFF! Sugary, flavory brain-frost!",
   "shortdescription" : "Fruit Tongue",
-  "handPosition" : [-4, -4],
   "effects" : [ [
-	    {
-        "effect" : "foodheal240",
-        "duration" : 60
-    },
-	{
-        "effect" : "rage",
-        "duration" : 60
-    },
-	{
-        "effect" : "runboost25",
-        "duration" : 60
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 248
     },
     {
-        "effect" : "maxenergyboost140",
-        "duration" : 270
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 248
     },
     {
-        "effect" : "wellfed",
+        "effect" : "jumpboostfood",
         "duration" : 270
     }
   ] ],
+  "foodValue" : 55,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 2,
   "blockingEffects" : [
     "wellfed"
   ]

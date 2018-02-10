@@ -2,20 +2,16 @@
   "itemName" : "glowfibregreen_gl",
   "rarity" : "Uncommon",
   "price" : 310,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
   "inventoryIcon" : "glowfibregreen_gl.png",
   "description" : "Bioluminescent plant fibres pulsing with a faint, greenish radiance.",
-  "shortdescription" : "Green Glow Fibre",
+  "shortdescription" : "Blue Glow Fibre",
+  "foodValue" : 1.25,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 150,
   "handPosition" : [0, 0],
-  "effects" : [ [
-    {
-        "effect" : "maxenergyboost40",
-        "duration" : 60
-    },
-    {
-        "effect" : "wellfed",
-        "duration" : 60
-    }
-  ] ],
   "blockingEffects" : [
     "wellfed"
   ]
